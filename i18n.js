@@ -2,7 +2,7 @@
 import { getSettings } from './state.js';
 
 export function lang() {
-    return getSettings().lang === 'en' ? 'en' : 'ru';
+    return 'en';
 }
 
 export const DAYS_I18N = {
